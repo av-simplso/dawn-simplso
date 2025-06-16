@@ -1,0 +1,40 @@
+{
+    "name": "horizon-simplso",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+    "watch:local": "shopify theme dev --environment local",
+    "watch:development": "shopify theme dev --environment development",
+    "watch:staging": "shopify theme dev --environment staging",
+
+    "deploy:local": "shopify theme push --environment local",
+    "deploy:development": "shopify theme push --environment development",
+    "deploy:staging": "shopify theme push --environment staging",
+    "deploy:prod": "shopify theme push --environment prod",
+
+    "update-settings:local": "shopify theme push --environment local-config",
+    "update-settings:development": "shopify theme push --environment development-config",
+    "update-settings:staging": "shopify theme push --environment staging-config",
+
+    "download-settings:local": "shopify theme pull --environment local-config",
+    "download-settings:development": "shopify theme pull --environment development-config",
+    "download-settings:staging": "shopify theme pull --environment staging-config",
+    "download-settings:prod": "shopify theme pull --environment prod-config",
+
+    "download-code:local": "shopify theme pull --environment local",
+    "download-code:development": "shopify theme pull --environment development",
+    "download-code:staging": "shopify theme pull --environment staging",
+    "download-code:prod": "shopify theme pull --environment prod",
+
+    "console:local": "shopify theme console --environment local",
+    "console:development": "shopify theme console --environment development",
+    "console:staging": "shopify theme console --environment staging",
+    "console:prod": "shopify theme console --environment prod",
+
+    "pretty": "prettier --write \"./**/*.{js,jsx,mjs,cjs,ts,tsx,json,scss,liquid}\""
+    },
+    "dependencies": {
+        "@shopify/cli": "^3.73.2"
+    }
+}

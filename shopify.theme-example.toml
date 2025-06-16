@@ -1,0 +1,50 @@
+[environments.local]
+theme = "themeid"
+store = "store-name"
+password  = "shptka_"
+ignore = ["templates/*.json","templates/*.liquid","templates/customers/*.liquid","templates/customers/*.json","config/settings_data.json","sections/*.json"]
+live-reload = "full-page"
+
+[environments.local-config]
+theme = "themeid"
+store = "store-name"
+password  = "shptka_"
+only = ["templates/*.json","templates/*.liquid","templates/customers/*.liquid","templates/customers/*.json","config/settings_data.json","sections/*.json"]
+
+[environments.development]
+theme = "themeid"
+store = "store-name"
+password  = "shptka_"
+ignore = ["templates/*.json","templates/*.liquid","templates/customers/*.liquid","templates/customers/*.json","config/settings_data.json","sections/*.json"]
+live-reload = "full-page"
+
+[environments.development-config]
+theme = "themeid"
+store = "store-name"
+password  = "shptka_"
+only = ["templates/*.json","templates/*.liquid","templates/customers/*.liquid","templates/customers/*.json","config/settings_data.json","sections/*.json"]
+
+[environments.staging]
+theme = "themeid"
+store = "store-name"
+password  = "shptka_"
+ignore = ["templates/*.json","templates/*.liquid","templates/customers/*.liquid","templates/customers/*.json","config/settings_data.json","sections/*.json"]
+live-reload = "full-page"
+
+[environments.staging-config]
+theme = "themeid"
+store = "store-name"
+password  = "shptka_"
+only = ["templates/*.json","templates/*.liquid","templates/customers/*.liquid","templates/customers/*.json","config/settings_data.json","sections/*.json"]
+
+[environments.prod]
+theme = "themeid"
+store = "store-name"
+password  = "shptka_"
+ignore = ["templates/*.json","templates/*.liquid","templates/customers/*.liquid","templates/customers/*.json","config/settings_data.json","sections/*.json"]
+
+[environments.prod-config]
+theme = "themeid"
+store = "store-name"
+password  = "shptka_"
+only = ["templates/*.json","templates/*.liquid","templates/customers/*.liquid","templates/customers/*.json","config/settings_data.json","sections/*.json"]
